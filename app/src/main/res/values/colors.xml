@@ -8,6 +8,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <color name="main_orange">#ff741e</color>
+    <color name="soft_main_orange">#ff904c</color>
+    <color name="main_red">#ff0000</color>
+    <color name="soft_main_red">#ff2121</color>
+
     <color name="colorPrimary">#FF5722</color>
     <color name="colorPrimaryDark">#E64A19</color>
     <color name="colorPrimaryLight">#FFCCBC</color>

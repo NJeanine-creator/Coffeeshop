@@ -30,7 +30,7 @@ public class HomeActivity extends AppCompatActivity {
         mGo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(HomeActivity.this,DailyChoose.class);
+                Intent intent=new Intent(HomeActivity.this,CoffeeChoose.class);
                 startActivity(intent);
             }
         });

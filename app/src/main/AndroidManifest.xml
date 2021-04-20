@@ -7,18 +7,19 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Coffee Shop"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Coffeeshop">
+        <activity android:name=".ui.CoffeeChoose" />
         <activity android:name=".ui.MainActivity" />
-        <activity android:name=".ui.HotelDetailActivity" />
-        <activity android:name=".ui.ChosenActivity"></activity>
-        <activity android:name=".ui.DailyChoose"></activity>
-        <activity android:name=".ui.ChoseMidDay"></activity>
-        <activity android:name=".ui.ChoseAfternoon"></activity>
-        <activity android:name=".ui.ChoseEvening"></activity>
-        <activity android:name=".ui.HotelActivity">
+        <activity android:name=".ui.FindUserFragment"/>
+        <activity android:name=".ui.Order" />
+        <activity android:name=".ui.DrinksActivity" />
+        <activity android:name=".ui.CappuccinoActivity" />
+        <activity android:name=".ui.FilterActivity" />
+        <activity android:name=".ui.RegisterActivity"/>
+        <activity android:name=".ui.LoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ui.MainActivity" />

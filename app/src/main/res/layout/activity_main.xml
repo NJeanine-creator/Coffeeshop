@@ -2,45 +2,43 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryText">
+    android:background="@color/colorPrimaryDark">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
         android:id="@+id/imageView"
-        android:src="@drawable/hotelhome"
-        android:scaleType="centerCrop" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/coffeeshophome" />
 
     <TextView
         android:id="@+id/appNameTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
-        android:text="HOBEL"
+        android:layout_marginTop="53dp"
+        android:text="   THE FERRY"
+        android:textColor="@color/colorTextIcons"
         android:textSize="60sp"
-        android:textStyle="bold"
-        android:textColor="@color/colorTextIcons" />
+        android:textStyle="bold" />
 
     <EditText
+        android:id="@+id/locationEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/locationEditText"
+        android:layout_above="@+id/findCoffee"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
         android:background="@color/colorTextIcons"
-        android:layout_above="@+id/findHotel"
-        android:layout_marginBottom="10dp"
-        android:padding="5dp"
         android:hint="Enter Zip Code"
-        android:layout_centerHorizontal="true" />
+        android:padding="5dp" />
 
     <Button
-        android:id="@+id/findHotel"
+        android:id="@+id/findCoffee"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="Find Hotel"
-        android:textColor="@color/colorTextIcons"
-        android:background="@color/colorAccent"/>
+        android:background="@color/colorAccent"
+        android:text="Find Coffeeshop "
+        android:textColor="@color/colorTextIcons" />
 </RelativeLayout>
