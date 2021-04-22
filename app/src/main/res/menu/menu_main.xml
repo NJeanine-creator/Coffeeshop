@@ -11,5 +11,11 @@
         android:title="Retrieve Users"
         android:visible="true"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_search_coffeeshop"
+        android:title="Find CoffeeShop"
+        android:visible="true"
+        app:showAsAction="never" />
+
 
 </menu>

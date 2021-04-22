@@ -75,7 +75,7 @@ public class CoffeeListAdapter extends RecyclerView.Adapter<CoffeeListAdapter.Co
             int itemPosition = getLayoutPosition();
             Intent intent = new Intent(mContext, CoffeeDetailActivity.class);
             intent.putExtra("position", itemPosition);
-            intent.putExtra("hotels", Parcels.wrap(mcoffee));
+            intent.putExtra("coffee", Parcels.wrap(mcoffee));
             mContext.startActivity(intent);
         }
     }

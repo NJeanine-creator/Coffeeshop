@@ -88,6 +88,9 @@ public class CoffeeChoose extends AppCompatActivity {
         } else if (id == R.id.action_saved_events) {
             Intent intent = new Intent(CoffeeChoose.this, FindUserFragment.class);
             startActivity(intent);
+        }else if (id == R.id.action_search_coffeeshop) {
+            Intent intent = new Intent(CoffeeChoose.this, MainActivity.class );
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);
