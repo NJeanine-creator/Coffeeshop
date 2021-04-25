@@ -18,15 +18,11 @@
         <activity android:name=".ui.DrinksActivity" />
         <activity android:name=".ui.CappuccinoActivity" />
         <activity android:name=".ui.FilterActivity" />
-        <activity android:name=".ui.CoffeeChoose" />
         <activity android:name=".ui.CoffeeActivity" />
+        <activity android:name=".ui.CoffeeChoose" />
+        <activity android:name=".ui.HomeActivity" />
         <activity android:name=".ui.RegisterActivity" />
         <activity android:name=".ui.LoginActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ui.MainActivity" />
-        </activity>
-        <activity android:name=".ui.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
